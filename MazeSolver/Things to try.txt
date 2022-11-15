@@ -1,0 +1,8 @@
+try implement bfs
+
+select start point
+
+print discance to stop
+
+take input from user for maze
+
