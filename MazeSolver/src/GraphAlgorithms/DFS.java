@@ -20,7 +20,7 @@ public class DFS {
             return true;
         }
         
-        if(maze[x][y]==0){
+        if(maze[x][y]==0 || maze[x][y]==8){
             maze[x][y]=2;
             
             int[] dx={1,0,-1,0};
@@ -40,7 +40,7 @@ public class DFS {
         return false;
     }
     public static void main(String args[]){
-        DFS obj=new DFS();
+    
         int maze[][]={
             {0, 0, 1},
             {0, 1, 9},
@@ -57,3 +57,4 @@ public class DFS {
         }
     }
 }
+
