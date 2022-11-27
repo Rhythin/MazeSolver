@@ -1,0 +1,8 @@
+1) Implemented BFS algorithm for shortest path
+2) Implemented functionality to switch start and target location
+3) Implemented functionality to change maze pattern
+4) Implemented option to reset the maze to default 
+5) Implemented help button for info on how to use program and its features
+6) Created executable .jar file and executeable .exe application
+
+
